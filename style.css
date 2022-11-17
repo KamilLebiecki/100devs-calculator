@@ -55,4 +55,5 @@ button {
 	color: black;
 	margin: 7px;
 	padding: 5px;
+	flex: 1 0 20%;
 }
