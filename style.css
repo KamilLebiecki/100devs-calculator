@@ -20,7 +20,7 @@ html {
 	width: 400px;
 	padding: 40px;
 	padding-top: 75px;
-	background-color: rgba(175, 29, 170, 0.419);
+	background-color: darkorchid;
 	border-radius: 25px;
 }
 
@@ -66,6 +66,6 @@ button {
 }
 
 button:hover {
-	background-color: rgb(86, 199, 156);
+	background-color: rgb(163, 163, 163);
 	color: white;
 }
