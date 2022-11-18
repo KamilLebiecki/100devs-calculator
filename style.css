@@ -1,6 +1,7 @@
 html {
 	font-size: 62.5%;
 	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 *,
@@ -21,7 +22,6 @@ html {
 	padding-top: 75px;
 	background-color: black;
 	border-radius: 25px;
-	border: 2px solid red;
 }
 
 .calculator-screen {
@@ -33,7 +33,6 @@ html {
 	color: black;
 	text-align: right;
 	padding-right: 10px;
-	border: 2px solid green;
 }
 
 .calculator-buttons {
@@ -42,7 +41,6 @@ html {
 	flex-wrap: wrap;
 	padding: 15px;
 	padding-bottom: 5px;
-	border: 2px solid yellow;
 }
 
 button {
@@ -55,5 +53,11 @@ button {
 	color: black;
 	margin: 7px;
 	padding: 5px;
-	flex: 1 0 20%;
+	flex: 1 0 18%;
+}
+
+.all-clear {
+	background-color: red;
+	color: white;
+	font-size: 3rem;
 }
