@@ -2,7 +2,7 @@
 
 Simple tool to do basic arithmetic stuff, theme with Fortnite game for my kids.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+[Simple Calculator](https://www.example.com)
 
 **Tech used:** HTML, CSS, vanilla JavaScript
 
