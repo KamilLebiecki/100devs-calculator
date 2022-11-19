@@ -2,7 +2,7 @@
 
 Simple tool to do basic arithmetic stuff, theme with Fortnite game for my kids.
 
-**Link to project** [Simple Calculator](https://inspiring-kelpie-9664cb.netlify.app/)
+**Link to project** https://inspiring-kelpie-9664cb.netlify.app/
 
 **Tech used:** HTML, CSS, vanilla JavaScript
 
