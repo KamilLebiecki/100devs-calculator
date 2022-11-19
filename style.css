@@ -12,6 +12,9 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+	background-color: gray;
+}
 .calculator {
 	position: absolute;
 	top: 50%;
@@ -20,7 +23,7 @@ html {
 	width: 400px;
 	padding: 40px;
 	padding-top: 75px;
-	background-color: darkorchid;
+	background-image: url('assets/calc-body.png');
 	border-radius: 25px;
 }
 
@@ -57,12 +60,28 @@ button {
 }
 
 .all-clear {
-	background-color: rgb(193, 56, 231);
-	color: white;
+	background-image: url('assets/all-clear.png');
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: black;
 	font-size: 3rem;
 }
 .all-clear:hover {
+	color: white;
+}
+
+.equals {
+	background-image: url('assets/equals.png');
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: center;
 	color: black;
+	font-size: 3rem;
+}
+
+.equals:hover {
+	color: white;
 }
 
 button:hover {
