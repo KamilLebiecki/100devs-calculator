@@ -37,6 +37,7 @@ const calculator = {
 		if (this.displayText === '0') {
 			this.displayText = '';
 		} else if (this.prevTotal !== null) {
+			this.displayText = this.prevTotal;
 			this.prevTotal = null;
 		}
 		if (isNaN(+value) && isNaN(+this.displayText)) {
